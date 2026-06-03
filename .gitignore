@@ -46,3 +46,6 @@ next-env.d.ts
 # audio
 /public/audio/
 
+# agent instructions
+AGENTS.md
+CLAUDE.md
