@@ -1,0 +1,35 @@
+{
+  "id": "/",
+  "name": "Quran App — Read, Listen & Learn the Qur'an",
+  "short_name": "Quran App",
+  "description": "A calm, elegant Qur'an reader with word-by-word audio recitation, bookmarks, and reading progress.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a1310",
+  "theme_color": "#0f5d3f",
+  "orientation": "portrait",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["books", "education", "lifestyle"],
+  "icons": [
+    {
+      "src": "https://quran-app-lac-sigma.vercel.app/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://quran-app-lac-sigma.vercel.app/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://quran-app-lac-sigma.vercel.app/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Offline — Quran App</title>
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <style>
+      :root { color-scheme: dark; }
+      * { box-sizing: border-box; }
+      html, body { height: 100%; margin: 0; }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        text-align: center;
+        color: #f3efe2;
+        background: radial-gradient(120% 120% at 50% 0%, #12876a 0%, #0a4d3c 45%, #07261d 100%);
+      }
+      .card { max-width: 22rem; }
+      .mark {
+        width: 84px; height: 84px; margin: 0 auto 1.5rem;
+        display: block;
+      }
+      h1 { font-size: 1.4rem; margin: 0 0 0.5rem; font-weight: 700; }
+      p { margin: 0 0 1.5rem; line-height: 1.6; color: #d8e6df; font-size: 0.98rem; }
+      button {
+        appearance: none; border: 0; cursor: pointer;
+        font: inherit; font-weight: 600;
+        padding: 0.75rem 1.5rem; border-radius: 999px;
+        color: #0a4d3c; background: #f3e7c6;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+      }
+      button:active { transform: translateY(1px); }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img class="mark" src="/icons/icon-192.png" alt="" />
+      <h1>You're offline</h1>
+      <p>
+        This page hasn't been saved for offline reading yet. Reconnect to the
+        internet, then pages you open will be available offline.
+      </p>
+      <button onclick="location.reload()">Try again</button>
+    </div>
+  </body>
+</html>

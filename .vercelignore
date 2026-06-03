@@ -1,0 +1,9 @@
+# Build artifacts & deps (Vercel installs/builds fresh)
+node_modules
+.git
+.next
+
+# Bundled recitation audio (~337 MB) — too large for serverless hosting and the
+# download-to-disk flow doesn't run on Vercel. Audio is a separate follow-up
+# (stream from api.qurancdn.com). The reading experience needs only public/data.
+public/audio
